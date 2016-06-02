@@ -33,6 +33,7 @@ Trie is also appended with the replacement of vowels, so 'hello' exists in dicti
 
 Example of dictionary object:
 
+```
 {
 	a: {
 			n: {
@@ -48,5 +49,5 @@ Example of dictionary object:
 		endWord: ['a', 'e', 'i', 'o', 'u']
 	}
 }
-
+```
 
