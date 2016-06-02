@@ -1,9 +1,14 @@
+## Usage ##
+
 To spellCheck:            node runspellcheck
+
 To jumble a word:         node runjumble
+
 To test the conversion:   node spellcheckjumble
+
 To run spellcheck tests:  node test
 
-#SpellCheck Algorithm:#
+##SpellCheck Algorithm:##
 
 1. Convert all uppercase letters to lowercase.
 2. Strip all repeated letters  (sheeeep => shep)
@@ -17,7 +22,7 @@ To run spellcheck tests:  node test
 6. If so, return word. Else, return 'No Suggestion'.
 
 
-#Building the dictionary object:#
+##Building the dictionary object:##
 
 The dictionary object is built prior to running the program to ensure a quick look up time.
 The object follows a trie structure where each letter is a node, and nodes are marked with endWord to indicate that 
