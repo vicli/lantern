@@ -6,7 +6,7 @@ var dictionaryObject = {}
 var vowelRegex = /^[aeiou]$/;
 
 var isVowel = function(letter) {
-		return (vowelRegex).test(letter);
+	return (vowelRegex).test(letter);
 }
 var iterable = function(wordArray){
     var index = 0;
@@ -180,7 +180,7 @@ var jumble = function(word) {
 }
 
 module.exports = {
-  spellCheck: spellCheck,
-  createDict: createDict,
-  jumble: jumble
+	spellCheck: spellCheck,
+	createDict: createDict,
+	jumble: jumble
 }
